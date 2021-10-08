@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: silver;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 2rem;
+  color: red;
+  padding: 1em;
+  background-color: chartreuse;
+  border: 5px solid green;
+  outline-offset: 0.5em;
+  outline: 5px solid green;
+  transform: scale(1);
+  transition: transform ease 2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.image-container {
+  margin: 2rem auto;
+  width: 60%;
+  height: 100vh;
+  border: 10px solid coral;
+}
